@@ -1,9 +1,4 @@
-{
-  "functions": {
-    "api/*.js": {
-      "runtime": "nodejs20.x"
-    }
-  },
+json{
   "rewrites": [
     { "source": "/((?!api/).*)", "destination": "/index.html" }
   ]
